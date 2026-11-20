@@ -2,9 +2,9 @@ package org.main.services;
 
 import org.main.model.Products;
 
-import java.util.HashMap;
+import java.util.Map;
 
 public interface IProducts {
-    HashMap<Integer, Products> getProducts();
+    Map<Integer, Products> getProducts();
 
 }
